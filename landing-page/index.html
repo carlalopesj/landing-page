@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/b380cc3ad9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <img id="header-img" src="https://img.freepik.com/vetores-gratis/jogo-joystick-tecnologia-esportiva_138676-2045.jpg?w=740&t=st=1676660740~exp=1676661340~hmac=d5b463f94ff015c8af79b65fa56f4bb4bdc515ed6a3d891a78144444b9d7b0b8" alt="logo"/>
+            <ul>
+                <li ><a class="nav-link" href="#home">Home</a></li>
+                <li ><a class="nav-link" href="#history">History</a></li>
+                <li ><a class="nav-link" href="#contact">Contact</a></li>
+                <li ><a class="nav-link" href="#subscribe" id="subs">Subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section id="home">
+            <div class="text">
+                <h1 class="text-title">Nintendo</h1>
+                <h2 class="text-subtitle">SHOPPING</h2>
+            </div>
+            <img src="https://img.freepik.com/vetores-gratis/personagem-jogando-videogame-online_23-2148519980.jpg?w=740&t=st=1676660862~exp=1676661462~hmac=1839be44c8bac40be3f8a7378551892de4f003e316a2bd8099879892a06f98ea" alt="boy playing" id="boy-game"/>
+        </section>
+        <section id="history">
+            <iframe id="video" width="650" height="400" src="https://www.youtube.com/embed/_Cc1HHPZY-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <section id="contact">
+            <h2 id="follow">Follow us in social medias:</h2>
+            <div class="icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-telegram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>  
+        </section>
+
+        <section id="subscribe">
+            <h2 id="subs-h2">Subscribe in our site for the news!</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Name"/>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="E-mail" name="email" />
+                <a id="btn" href="https://www.freecodecamp.com/email-submit"><label for="submit"></label>
+                <input type="submit" id="submit" value="Submit" /></a>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Thanks for the attention!</p>
+    </footer>
+</body>
+</html>
