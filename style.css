@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Kanit:ital,wght@0,400;1,200&family=Tourney:wght@100;200&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Kanit', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #66085e;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  }
+  
+  #header {
+    position: fixed;
+  }
+
+
+nav img {
+  height: 50px;
+  width: auto;
+  }
+  
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+nav li {
+  margin-left: 30px;
+  padding: 10px;
+  }
+  
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+  font-size: 1rem;
+  }
+
+main {
+  padding-top: 50px;
+}
+
+#subs {
+  text-transform: uppercase;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: white;
+  color:#66085e;
+  }
+
+#boy-game {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 60vh;
+  }
+
+  i {
+  font-size: 50px;;
+  }
+
+#home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: linear-gradient(#9f0a92, #66085e);
+  padding: 20px;
+  align-items: center;
+  height: 75vh;
+  }
+
+  .text {
+  color: white;
+  }
+
+.text-title {
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  }
+.text-subtitle {
+  text-transform: uppercase;
+  font-size: 4rem;
+  line-height: 30px;
+  font-family: 'Tourney', cursive;
+  }
+
+#history {
+  background-color: #2d052a;
+  height: 60vh;
+  }
+
+#video {
+  display: block;
+  margin: 0 auto;
+  padding-top: 15px;
+  }
+
+#contact {
+  background-color: #c19dbe;
+}
+
+#follow {
+  text-align: center;
+  border-top: 1px solid white;
+  color: #f7f7f7;
+}
+
+.icon {
+  text-align: center;
+  padding: 10px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+#subscribe {
+  border-top: 1px solid white;
+  background-color: #b18dae;
+}
+
+#subs-h2 {
+  text-align: center;
+  color: #f7f7f7;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  color: white;
+}
+
+#name, #email {
+  width: 25%;
+  padding: 10px;
+}
+
+#submit {
+  color:#2d052a;
+  background-color: aliceblue;
+  padding: 10px;
+  width: 25%;
+  margin: 20px;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+
+#btn {
+  width: 25%; 
+  text-align: center;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: #2d052a;
+  color: #f7f7f7;
+}
+
+footer {
+  background-color: #6d6c6c;
+  color: #bdbbbb;
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+
+@media (max-width: 700px) { 
+    #nav-bar { 
+        position: fixed;
+        display: flex; 
+        flex-direction: column;
+        width: 100%; 
+        margin-top: 40px; 
+    } 
+    body { 
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 100px;
+    } 
+    #main { 
+        width: 100%; 
+    } 
+}
